@@ -65,6 +65,16 @@
         <img src="image/project/patent/detail.png" class="image" />
       </v-layout>
     </div>
+
+    <div class="section">
+      <div class="header">여성발명왕EXPO 참가</div>
+      <v-layout justify-center align-center>
+        <v-row align="center">
+          <img src="image/project/patent/poster1.jpg" class="img1" />
+          <img src="image/project/patent/poster2.jpg" class="img2" />
+        </v-row>
+      </v-layout>
+    </div>
   </div>
 </template>
 
@@ -120,7 +130,20 @@
   margin: 0 auto; // 위아래, 좌우
   padding-top: 40px;
   padding-bottom: 20px;
-
+  .img1 {
+    padding: 10px 10px;
+    width: 600px;
+    height: 400px;
+    max-width: 600px;
+    max-height: 400px;
+  }
+  .img2 {
+    padding: 10px 10px;
+    width: 500px;
+    height: 600px;
+    max-width: 500px;
+    max-height: 600px;
+  }
   .header {
     padding-bottom: 30px;
     text-align: center;
