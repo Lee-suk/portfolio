@@ -1,6 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import ProjectPetFood from '../views/project/ProjectPetFood'
+import ProjectSafeCheck from '../views/project/ProjectSafeCheck'
+import ProjectLocalFood from '../views/project/ProjectLocalFood'
+import ProjectPatent from '../views/project/ProjectPatent'
+import ProjectInterior from '../views/project/ProjectInterior'
+import ProjectEmotion from '../views/project/ProjectEmotion'
+import ProjectDelivery from '../views/project/ProjectDelivery'
+
 
 Vue.use(VueRouter)
 
@@ -11,12 +19,46 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/petfood',
+    name: 'petfood',
+    component: ProjectPetFood
+
+  },
+  {
+    path: '/safecheck',
+    name: 'safecheck',
+    component: ProjectSafeCheck
+
+  },
+  {
+    path: '/localfood',
+    name: 'localfood',
+    component: ProjectLocalFood
+
+  },
+  {
+    path: '/patent',
+    name: 'patent',
+    component: ProjectPatent
+
+  },
+  {
+    path: '/interior',
+    name: 'interior',
+    component: ProjectInterior
+
+  },
+  {
+    path: '/emotion',
+    name: 'emotion',
+    component: ProjectEmotion
+
+  },
+  {
+    path: '/delivery',
+    name: 'delivery',
+    component: ProjectDelivery
+
   }
 ]
 
