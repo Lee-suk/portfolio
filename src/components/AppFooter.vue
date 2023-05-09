@@ -23,7 +23,7 @@
               <v-btn icon x-large @click="moveGit">
                 <v-icon>mdi-github</v-icon>
               </v-btn>
-              <div class="mt-3">source code</div>
+              <div class="mt-3">github</div>
             </v-row>
           </div>
         </v-layout>

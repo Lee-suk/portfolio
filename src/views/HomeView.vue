@@ -78,16 +78,16 @@
                   >
                   </vue-typer>
                 </span>
-                <div class="intro">개발자 이수경입니다.</div>
+                <div class="intro">인재 이수경입니다.</div>
               </v-col>
             </v-layout>
           </div>
         </v-responsive>
       </v-card>
     </div>
-    <v-layout class="mx-20" justify-center align-center
+    <!-- <v-layout class="mx-20" justify-center align-center
       ><text-animate :autoplay="autoplay"
-    /></v-layout>
+    /></v-layout> -->
 
     <!-- PROJECT-->
     <div class="section" id="project">
@@ -232,7 +232,7 @@
               <v-divider></v-divider>
               <v-row justify="start" class="certif">
                 <v-icon x-large>mdi-file-certificate</v-icon>
-                <h4 class="pt-2 pl-3">정보처리산업기사</h4>
+                <h4 class="pt-2 pl-3">정보처리기사</h4>
               </v-row>
               <v-row justify="start" class="certif">
                 <v-icon x-large>mdi-file-certificate</v-icon>
