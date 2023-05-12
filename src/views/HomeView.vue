@@ -89,7 +89,41 @@
       ><text-animate :autoplay="autoplay"
     /></v-layout> -->
 
-    <!-- PROJECT-->
+    <!-- SK ROOKIES -->
+    <div class="section" id="project">
+      <div class="header">SK ROOKIES PROJECT</div>
+
+      <v-responsive :aspect-ratio="16 / 9">
+        <v-row justify="center">
+          <div class="title">진단 사이트 & 앱</div>
+          <v-layout wrap>
+            <v-flex xs4 class="pa-2" data-aos="slide-right">
+              <v-responsive :aspect-ratio="1 / 1">
+                <img src="image/sk_rookies/chjinstagram.png" class="image" />
+              </v-responsive>
+            </v-flex>
+            <v-flex xs4 class="pa-2" data-aos="fade-down" data-aos-delay="100">
+              <v-responsive :aspect-ratio="1 / 1">
+                <img src="image/sk_rookies/ohbank.png" class="image" />
+              </v-responsive>
+            </v-flex>
+            <v-flex xs4 class="pa-2" data-aos="fade-left" data-aos-delay="200">
+              <v-responsive :aspect-ratio="1 / 1">
+                <img src="image/sk_rookies/rookiebank.png" class="image" />
+              </v-responsive>
+            </v-flex>
+          </v-layout>
+          <div class="title">수행 산출물</div>
+          <img
+            src="image/sk_rookies/examples.png"
+            data-aos="fade-down"
+            class="image"
+          />
+        </v-row>
+      </v-responsive>
+    </div>
+
+    <!-- PROJECT -->
     <div class="section" id="project">
       <div class="header">PROJECT</div>
       <v-layout wrap>
@@ -367,6 +401,13 @@ export default {
   .header {
     text-align: center;
     font-size: 40px;
+    font-weight: bold;
+  }
+
+  .title {
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
     font-weight: bold;
   }
 
